@@ -1,42 +1,41 @@
 .transactionHistory {
-    box-shadow: 2px -3px 4px 0px #0000001F,
-    1px 4px 6px 0px #00000029,
-    0px 4px 4px 0px #0000000F,
-    0px 1px 1px 0px #0000001F;
-    font-size: 15px;
-    text-align: center;
+  box-shadow: 2px -3px 4px 0px #0000001f, 1px 4px 6px 0px #00000029,
+    0px 4px 4px 0px #0000000f, 0px 1px 1px 0px #0000001f;
+  font-size: 15px;
+  text-align: center;
 }
 
 .tableRow {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    color: #a3a4a7;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: #a3a4a7;
 }
 
-.tableRow:nth-child(2n+1) {
-    background-color: #FFFFFF;
+.tableRow:nth-child(2n + 1) {
+  background-color: #ffffff;
 }
 
 .tableRow:nth-child(2n) {
-    background-color: #ecf1f4;
+  background-color: #ecf1f4;
 }
 
 .tableHead .tableRow {
-    color: #FFFFFF;
-    background-color: #00bcd5;
+  color: #ffffff;
+  background-color: #00bcd5;
 }
 
 th:nth-child(2) {
-    border-left: 0.5px solid #a3a4a7;
-    border-right: 0.5px solid #a3a4a7;
+  border-left: 0.5px solid #a3a4a7;
+  border-right: 0.5px solid #a3a4a7;
 }
 
 td:nth-child(2) {
-    border-left: 0.5px solid #a3a4a7;
-    border-right: 0.5px solid #a3a4a7;
+  border-left: 0.5px solid #a3a4a7;
+  border-right: 0.5px solid #a3a4a7;
 }
 
-td, th {
-    padding: 10px 50px;
-    max-width: 33%;
+td,
+th {
+  padding: 10px 50px;
+  max-width: 33%;
 }

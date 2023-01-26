@@ -1,56 +1,54 @@
 .statistics {
-    box-shadow: 2px -3px 4px 0px #0000001F,
-    1px 4px 6px 0px #00000029,
-    0px 4px 4px 0px #0000000F,
-    0px 1px 1px 0px #0000001F;
-    text-align: center;
+  box-shadow: 2px -3px 4px 0px #0000001f, 1px 4px 6px 0px #00000029,
+    0px 4px 4px 0px #0000000f, 0px 1px 1px 0px #0000001f;
+  text-align: center;
 }
 
 .title {
-    color: #606368;
-    font-size: 25px;
+  color: #606368;
+  font-size: 25px;
 }
 
 .statList {
-    list-style: none;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding: 0px;
-    margin: 0px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 0px;
+  margin: 0px;
 }
 
 .item {
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .item:nth-child(1) {
-    background-color: #4dc5f7;
+  background-color: #4dc5f7;
 }
 
 .item:nth-child(2) {
-    background-color: #a43cf6;
+  background-color: #a43cf6;
 }
 
 .item:nth-child(3) {
-    background-color: #e64c63;
+  background-color: #e64c63;
 }
 
 .item:nth-child(4) {
-    background-color: #20b8c5;
+  background-color: #20b8c5;
 }
 
 .item:nth-child(5) {
-    background-color: #a43cf6;
+  background-color: #a43cf6;
 }
 
 .label {
-    color: #FFFFFF;
-    font-size: 13px;
+  color: #ffffff;
+  font-size: 13px;
 }
 
 .percentage {
-    color: #FFFFFF;
-    font-size: 25px;
+  color: #ffffff;
+  font-size: 25px;
 }

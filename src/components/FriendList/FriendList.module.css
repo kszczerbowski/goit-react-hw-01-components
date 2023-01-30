@@ -2,6 +2,10 @@
   list-style: none;
   padding: 0px;
   margin: auto 20px;
+  max-width: 300px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .item {
